@@ -1,16 +1,16 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            D5ngHyun Blog
+longtitle:        D5ngHyun Blog
+author:           DongHyun
+email:            dong5ffice@gmail.com
 description: >
-  Build Jekyll site with the GitBook style.
+  안녕하세요! D5ng 기술블로그 입니다.
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://d5ng.github.io/'
+baseurl:          '/d5ng'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
