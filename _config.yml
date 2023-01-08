@@ -13,6 +13,9 @@ url:              ''
 baseurl:          'https://d5ng.github.io'
 rss:              RSS
 
+timezone: Asia/Seoul
+
+
 # bootstrap: use the remote theme for the site itself
 remote_theme: sighingnow/jekyll-gitbook
 
