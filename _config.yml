@@ -9,8 +9,8 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'd5ng.github.io'
-baseurl:          '/'
+url:              'https://d5ng.github.io/'
+baseurl:          '/d5ng'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
