@@ -1,22 +1,21 @@
 # Configurations
-locale:           "ko-KR"
-title:            "D5ng 공부블로그"
-longtitle:        "D5ng 공부블로그"
-author:           "DongHyun"
-email:            "dong5ffice@gmail.com"
+locale: "ko-KR"
+title: "D5ng 공부블로그"
+longtitle: "D5ng 공부블로그"
+author: "DongHyun"
+email: "dong5ffice@gmail.com"
 description: >
   안녕하세요! D5ng 기술블로그 입니다.
   항상 배움에 목이 마른 개발자입니다.
 
-version:          1.0
-gitbook_version:  3.2.3
+version: 1.0
+gitbook_version: 3.2.3
 
-url:              ''
-baseurl:          'https://d5ng.github.io'
-rss:              RSS
+url: ""
+baseurl: "https://d5ng.github.io"
+rss: RSS
 
 timezone: Asia/Seoul
-
 
 # bootstrap: use the remote theme for the site itself
 remote_theme: sighingnow/jekyll-gitbook
@@ -27,26 +26,26 @@ toc:
   h_max: 3
 
 # customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
-favicon_path:     /assets/gitbook/images/favicon.ico
+favicon_path: /assets/gitbook/images/favicon.ico
 
 # markdown render engine.
-markdown:         kramdown
+markdown: kramdown
 kramdown:
-  auto_ids:               true
-  input:                  GFM
-  math_engine:            mathjax
-  smart_quotes:           lsquo,rsquo,ldquo,rdquo
-  toc_levels:             1..6
-  syntax_highlighter:     rouge
+  auto_ids: true
+  input: GFM
+  math_engine: mathjax
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..6
+  syntax_highlighter: colorful
   syntax_highlighter_opts:
-    guess_lang:           true
+    guess_lang: true
 
 syntax_highlighter_style: colorful
 
-markdown_ext:     markdown,mkdown,mkdn,mkd,md
+markdown_ext: markdown,mkdown,mkdn,mkd,md
 
 # Permalinks
-permalink:        /:categories/:year-:month-:day-:title:output_ext
+permalink: /:categories/:year-:month-:day-:title:output_ext
 
 exclude:
   - _drafts
@@ -58,9 +57,9 @@ collections:
 
 page_width: 800px
 
-destination:      ./_site
-incremental:      false
-regenerate:       true
+destination: ./_site
+incremental: false
+regenerate: true
 
 plugins:
   - jekyll-feed
