@@ -12,7 +12,7 @@ version: 1.0
 gitbook_version: 3.2.3
 
 url: ""
-baseurl: "https://d5ng.github.io"
+baseurl: ""
 rss: RSS
 
 timezone: Asia/Seoul

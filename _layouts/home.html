@@ -14,6 +14,7 @@
         <div class="book">
 
             {%- include toc-date.html -%}
+            <!-- {%- include category.html -%} -->
 
             <div class="book-body">
                 <div class="book-header" role="navigation">
@@ -46,11 +47,6 @@
             });
             </script>
         </div>
-
-        {% for category in site.categories %}
-        {{ category }}
-        {% endfor %}
-
         {%- include footer.html -%}
 
     </body>
