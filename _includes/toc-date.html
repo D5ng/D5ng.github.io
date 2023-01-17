@@ -22,13 +22,8 @@
             <a href="{{ page.dir}}"></a>
 
             {% for category in site.categories %}
-
                 <li class="chapter {% if category[0] == page.category %} active {% endif %}" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
-<<<<<<< HEAD
                     <a href="/category/{{ category | first | downcase }}">{{ category | first }} ({{ category | last | size }})</a>
-=======
-                    <a href="/category/{{ category | first | downcase }}">{{ category | first}} ({{ category | last | size }})</a>
->>>>>>> 6c27d3dcab0075c84384fa2d06bfa2f645a2201c
                 </li>
             {% endfor %}
         </ul>
