@@ -4,6 +4,7 @@ author: Tao He
 date: 2023-01-13 00:00 +09:00
 category: CSS
 layout: post
+cat: css
 ---
 
 {% for category in site.categories %}
