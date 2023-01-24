@@ -17,7 +17,7 @@ Deep Dive스터디가 끝난 이후에 중요한 내용들을 다시 정리해�
 {% if category[0] == 'JavaScript' %}
 
   <ul>
-    {% for post in category[1] %}
+    {% for post in category[1] reversed %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
