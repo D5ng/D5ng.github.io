@@ -1,6 +1,19 @@
 ---
 ---
 
+/* D5ng Custom Start */
+.bg_strong {
+    background: rgba(241, 241, 239, 1) !important;
+    color: rgb(55, 53, 47) !important;
+    font-weight: 700;
+}
+
+blockquote {
+    border-left: 3px solid #333 !important;
+    color: #333 !important;
+}
+
+/* D5ng Custom End */
 .book-body {
     overflow-y: scroll;
 }
