@@ -1,26 +1,22 @@
 ---
-title: JavaScript
+title: JavaScript 핵심
 author: Tao He
 date: 2023-01-13 00:00 +09:00
-category: JavaScript
+category: JavaScript 핵심
 layout: post
 ---
 
-# 📙 자바스크립트 공부
+# 📙 자바스크립트 핵심내용
 
-### 자바스크립트 Deep Dive Study 정리
+### 자바스크립트 핵심내용 정리
 
-너무나도 좋고, 엄청나게 방대한 양이다… 사실 여기있는 책을 모두 외워버리면 좋겠지만,  
-그냥 코드만 짜는게 아닌, 원리에 대해 알아가면서 코드를 작성하는게 더욱 더 의미가 있다.  
-일주일에 한번씩은 전체적으로 책을 빠르게 훑으면서 중요한부분들을 블로그 포스팅을 하려고 합니다.
+자바스크립트에서 핵심위주로 담긴 내용들을 정리하고 있는 포스트 입니다.  
+가장 중요한 만큼 많이 읽고 의식적으로 연습(코딩)을 해야합니다.
 
-출처 - [자바스크립트 Deep Dive](https://wikibook.co.kr/mjs/)  
-링크 - [웹 튜토리얼 이웅모](https://poiemaweb.com/)  
-저자 - 이웅모  
-출판사 - 위키북스
+<span class="bg_strong">💡 면접 질문과 연관이 있는 부분이니 매우 중요합니다.</span>
 
 {% for category in site.categories %}
-{% if category[0] == 'JavaScript' %}
+{% if category[0] == 'JavaScript 핵심' %}
 
   <ul>
     {% for post in category[1] reversed %}

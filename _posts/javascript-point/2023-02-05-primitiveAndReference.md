@@ -3,7 +3,7 @@ title: 원시타입과 참조타입
 author: D5ng
 date: 2023-02-05 00:00 +09:00
 layout: post
-category: JavaScript
+category: JavaScript 핵심
 ---
 
 <!-- <span class="bg_strong"></span> -->
@@ -133,3 +133,10 @@ user와 user2는 서로 다른 메모리 주소에있고, user2를 변경해도 
 <br />
 얕은 복사와 깊은 복사는 나중에 함수형 프로그래밍에도 영향을 끼친다.  
 이부분은 중점적으로 여러번 반복하면서 예제 또는 실제 작업할 때 의식적으로 사용 해야할 필요성을 느낀다.
+
+### 레퍼런스.
+
+- 출처 - [자바스크립트 Deep Dive](https://wikibook.co.kr/mjs/)
+- 링크 - [웹 튜토리얼 이웅모](https://poiemaweb.com/)
+- 저자 - 이웅모
+- 출판사 - 위키북스

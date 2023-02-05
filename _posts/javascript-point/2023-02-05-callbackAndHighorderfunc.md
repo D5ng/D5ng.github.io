@@ -3,7 +3,7 @@ title: 콜백함수와 고차함수
 author: D5ng
 date: 2023-02-05 00:02 +09:00
 layout: post
-category: JavaScript
+category: JavaScript 핵심
 ---
 
 ## 고차함수란 ?
@@ -88,3 +88,10 @@ const evenPrint = (number) => number % 2 === 0 && console.log(number);
 numberPrint(5, allPrint); // 0, 1, 2, 3, 4
 numberPrint(5, evenPrint); // 0, 2, 5
 ```
+
+### 레퍼런스.
+
+- 출처 - [자바스크립트 Deep Dive](https://wikibook.co.kr/mjs/)
+- 링크 - [웹 튜토리얼 이웅모](https://poiemaweb.com/)
+- 저자 - 이웅모
+- 출판사 - 위키북스
