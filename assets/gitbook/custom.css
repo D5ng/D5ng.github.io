@@ -13,6 +13,10 @@ blockquote {
     color: #333 !important;
 }
 
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6 {
+    margin-bottom: 0.2em;
+}
+
 /* D5ng Custom End */
 .book-body {
     overflow-y: scroll;
