@@ -2,6 +2,11 @@
 ---
 
 /* D5ng Custom Start */
+
+body {
+    font-weight: 500;
+}
+
 .bg_strong {
     background: rgba(241, 241, 239, 1) !important;
     color: rgb(55, 53, 47) !important;
@@ -11,6 +16,10 @@
 blockquote {
     border-left: 3px solid #333 !important;
     color: #333 !important;
+}
+
+.markdown-section {
+    line-height: 1.8;
 }
 
 
@@ -163,10 +172,10 @@ blockquote {
 /* Custom font settings */
 
 .book.font-family-0 {
-    font-family: Georgia, serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 .book.font-family-1 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 /* Render wide tables */
