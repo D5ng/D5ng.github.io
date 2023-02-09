@@ -133,4 +133,9 @@ console.log(userArray);
 <span class="bg_strong">현재 만들고 있거나, 앞으로 해야할 프로젝트에서 모두 순수 함수로 작성할 수 없다.  
 그렇지만 웬만하면 순수 함수로 사용하려고 노력을 해야한다는게 포인트인것 같다.</span>
 
-참고자료: https://blog.greenroots.info/what-are-pure-functions-and-side-effects-in-javascript
+#### 참고자료.
+
+- 출처 - [자바스크립트 Deep Dive](https://wikibook.co.kr/mjs/)
+- 링크 - [웹 튜토리얼 이웅모](https://poiemaweb.com/)
+- 저자 - 이웅모
+- 출판사 - 위키북스

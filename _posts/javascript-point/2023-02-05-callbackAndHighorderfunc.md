@@ -89,7 +89,7 @@ numberPrint(5, allPrint); // 0, 1, 2, 3, 4
 numberPrint(5, evenPrint); // 0, 2, 5
 ```
 
-### 레퍼런스.
+#### 참고자료.
 
 - 출처 - [자바스크립트 Deep Dive](https://wikibook.co.kr/mjs/)
 - 링크 - [웹 튜토리얼 이웅모](https://poiemaweb.com/)

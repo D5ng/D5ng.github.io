@@ -86,7 +86,7 @@ var fn3 = function () {
 > 함수 호이스팅은 함수를 호출하기 전에 반드시 함수를 선언해야 한다는 당연한 규칙을 무시한다.
 > 이같은 문제 때문에 JavaScript: The Good Parts의 저자 더글라스 크락포드는 <span class="bg_strong">함수 선언문 대신 함수 표현식</span>을 사용할 것을 권장한다.
 
-### 레퍼런스.
+#### 참고자료.
 
 - 출처 - [자바스크립트 Deep Dive](https://wikibook.co.kr/mjs/)
 - 링크 - [웹 튜토리얼 이웅모](https://poiemaweb.com/)
