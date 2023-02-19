@@ -1,8 +1,8 @@
 ---
-title: JavaScript 핵심
+title: JavaScript
 author: Tao He
-date: 2023-01-13 00:00 +09:00
-category: JavaScript 핵심
+date: 2023-01-02 00:00 +09:00
+category: JavaScript
 layout: post
 ---
 
@@ -20,7 +20,7 @@ layout: post
 출판사 - 위키북스
 
 {% for category in site.categories %}
-{% if category[0] == 'JavaScript 핵심' %}
+{% if category[0] == 'JavaScript' %}
 
   <ul>
     {% for post in category[1] reversed %}
