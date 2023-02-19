@@ -46,6 +46,7 @@ blockquote {
     /* position: absolute; */
     margin-top: 50px;
     min-height: calc(100% - 50px);
+    padding-bottom: 150px;
 }
 
 .book-body .body-inner .page-wrapper {
