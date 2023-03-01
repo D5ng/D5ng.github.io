@@ -9,18 +9,26 @@ body {
 }
 
 .bg_strong {
-    background: rgba(241, 241, 239, 1) !important;
-    color: #272727 !important;
+    /* background: rgba(241, 241, 239, 1) !important; */
+    /* color: #272727 !important; */
+    /* background: rgb(213 255 248) !important; */
+    color: #ff7676 !important;
     font-weight: 700;
 }
 
+.markdown-section hr {
+    background-color: #ff7676;
+}
+
 blockquote {
-    border-left: 3px solid #333 !important;
-    color: #333 !important;
+    /* border-left: 3px solid #333 !important;
+    color: #333 !important; */
+    border-left: 3px solid #c0294f !important;
+    color: #c4c4c4 !important;
 }
 
 .markdown-section {
-    line-height: 1.8;
+    line-height: 1.6;
 }
 
 .markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section h5, .markdown-section h6 {
